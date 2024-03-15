@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DBTRABZONModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="TBLADMİN">
+          <Key>
+            <PropertyRef Name="AdminID" />
+          </Key>
+          <Property Name="AdminID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="AdminUserName" Type="varchar" MaxLength="50" />
+          <Property Name="AdminPassword" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="TBLDOGA">
+          <Key>
+            <PropertyRef Name="DogaID" />
+          </Key>
+          <Property Name="DogaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DogaBaslik1" Type="varchar(max)" />
+          <Property Name="DogaBaslik2" Type="varchar(max)" />
+          <Property Name="DogaText" Type="varchar(max)" />
+          <Property Name="DogaImageURL" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="TBLGİRİS">
+          <Key>
+            <PropertyRef Name="GirisID" />
+          </Key>
+          <Property Name="GirisID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="GirisBaslik" Type="varchar" MaxLength="50" />
+          <Property Name="GirisMetin" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="TBLILETİSİM">
+          <Key>
+            <PropertyRef Name="IletisimID" />
+          </Key>
+          <Property Name="IletisimID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Telefon" Type="varchar" MaxLength="50" />
+          <Property Name="Email" Type="varchar" MaxLength="50" />
+          <Property Name="Adres" Type="varchar" MaxLength="50" />
+          <Property Name="TwitterURL" Type="varchar(max)" />
+          <Property Name="FacebookURL" Type="varchar(max)" />
+          <Property Name="LinkedinURL" Type="varchar(max)" />
+          <Property Name="İnstagramURL" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="TBLKULTUR">
+          <Key>
+            <PropertyRef Name="KulturID" />
+          </Key>
+          <Property Name="KulturID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="KulturBaslik" Type="varchar(max)" />
+          <Property Name="KulturImageURL" Type="varchar(max)" />
+          <Property Name="KulturMetin" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="TBLTARİH">
+          <Key>
+            <PropertyRef Name="TarihID" />
+          </Key>
+          <Property Name="TarihID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TarihBaslık" Type="varchar(max)" />
+          <Property Name="TarihImageURL" Type="varchar(max)" />
+          <Property Name="TarihText" Type="varchar(max)" />
+        </EntityType>
+        <EntityContainer Name="DBTRABZONModelStoreContainer">
+          <EntitySet Name="TBLADMİN" EntityType="Self.TBLADMİN" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBLDOGA" EntityType="Self.TBLDOGA" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBLGİRİS" EntityType="Self.TBLGİRİS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBLILETİSİM" EntityType="Self.TBLILETİSİM" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBLKULTUR" EntityType="Self.TBLKULTUR" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBLTARİH" EntityType="Self.TBLTARİH" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DBTRABZONModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="TBLADMİN">
+          <Key>
+            <PropertyRef Name="AdminID" />
+          </Key>
+          <Property Name="AdminID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AdminUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="AdminPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="TBLDOGA">
+          <Key>
+            <PropertyRef Name="DogaID" />
+          </Key>
+          <Property Name="DogaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DogaBaslik1" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="DogaBaslik2" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="DogaText" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="DogaImageURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="TBLGİRİS">
+          <Key>
+            <PropertyRef Name="GirisID" />
+          </Key>
+          <Property Name="GirisID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="GirisBaslik" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="GirisMetin" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="TBLILETİSİM">
+          <Key>
+            <PropertyRef Name="IletisimID" />
+          </Key>
+          <Property Name="IletisimID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Adres" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="TwitterURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="FacebookURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="LinkedinURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="İnstagramURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="TBLKULTUR">
+          <Key>
+            <PropertyRef Name="KulturID" />
+          </Key>
+          <Property Name="KulturID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="KulturBaslik" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="KulturImageURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="KulturMetin" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="TBLTARİH">
+          <Key>
+            <PropertyRef Name="TarihID" />
+          </Key>
+          <Property Name="TarihID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TarihBaslık" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="TarihImageURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="TarihText" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="DBTRABZONEntities4" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="TBLADMİN" EntityType="Self.TBLADMİN" />
+          <EntitySet Name="TBLDOGA" EntityType="Self.TBLDOGA" />
+          <EntitySet Name="TBLGİRİS" EntityType="Self.TBLGİRİS" />
+          <EntitySet Name="TBLILETİSİM" EntityType="Self.TBLILETİSİM" />
+          <EntitySet Name="TBLKULTUR" EntityType="Self.TBLKULTUR" />
+          <EntitySet Name="TBLTARİH" EntityType="Self.TBLTARİH" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DBTRABZONModelStoreContainer" CdmEntityContainer="DBTRABZONEntities4">
+          <EntitySetMapping Name="TBLADMİN">
+            <EntityTypeMapping TypeName="DBTRABZONModel.TBLADMİN">
+              <MappingFragment StoreEntitySet="TBLADMİN">
+                <ScalarProperty Name="AdminID" ColumnName="AdminID" />
+                <ScalarProperty Name="AdminUserName" ColumnName="AdminUserName" />
+                <ScalarProperty Name="AdminPassword" ColumnName="AdminPassword" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TBLDOGA">
+            <EntityTypeMapping TypeName="DBTRABZONModel.TBLDOGA">
+              <MappingFragment StoreEntitySet="TBLDOGA">
+                <ScalarProperty Name="DogaID" ColumnName="DogaID" />
+                <ScalarProperty Name="DogaBaslik1" ColumnName="DogaBaslik1" />
+                <ScalarProperty Name="DogaBaslik2" ColumnName="DogaBaslik2" />
+                <ScalarProperty Name="DogaText" ColumnName="DogaText" />
+                <ScalarProperty Name="DogaImageURL" ColumnName="DogaImageURL" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TBLGİRİS">
+            <EntityTypeMapping TypeName="DBTRABZONModel.TBLGİRİS">
+              <MappingFragment StoreEntitySet="TBLGİRİS">
+                <ScalarProperty Name="GirisID" ColumnName="GirisID" />
+                <ScalarProperty Name="GirisBaslik" ColumnName="GirisBaslik" />
+                <ScalarProperty Name="GirisMetin" ColumnName="GirisMetin" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TBLILETİSİM">
+            <EntityTypeMapping TypeName="DBTRABZONModel.TBLILETİSİM">
+              <MappingFragment StoreEntitySet="TBLILETİSİM">
+                <ScalarProperty Name="IletisimID" ColumnName="IletisimID" />
+                <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Adres" ColumnName="Adres" />
+                <ScalarProperty Name="TwitterURL" ColumnName="TwitterURL" />
+                <ScalarProperty Name="FacebookURL" ColumnName="FacebookURL" />
+                <ScalarProperty Name="LinkedinURL" ColumnName="LinkedinURL" />
+                <ScalarProperty Name="İnstagramURL" ColumnName="İnstagramURL" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TBLKULTUR">
+            <EntityTypeMapping TypeName="DBTRABZONModel.TBLKULTUR">
+              <MappingFragment StoreEntitySet="TBLKULTUR">
+                <ScalarProperty Name="KulturID" ColumnName="KulturID" />
+                <ScalarProperty Name="KulturBaslik" ColumnName="KulturBaslik" />
+                <ScalarProperty Name="KulturImageURL" ColumnName="KulturImageURL" />
+                <ScalarProperty Name="KulturMetin" ColumnName="KulturMetin" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TBLTARİH">
+            <EntityTypeMapping TypeName="DBTRABZONModel.TBLTARİH">
+              <MappingFragment StoreEntitySet="TBLTARİH">
+                <ScalarProperty Name="TarihID" ColumnName="TarihID" />
+                <ScalarProperty Name="TarihBaslık" ColumnName="TarihBaslık" />
+                <ScalarProperty Name="TarihImageURL" ColumnName="TarihImageURL" />
+                <ScalarProperty Name="TarihText" ColumnName="TarihText" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

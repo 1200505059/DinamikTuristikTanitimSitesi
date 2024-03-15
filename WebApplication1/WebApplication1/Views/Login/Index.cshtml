@@ -1,0 +1,70 @@
+﻿@model List<WebApplication1.Models.Entity.TBLADMİN>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Ekranı</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .login-container {
+            margin-top: 100px;
+        }
+
+        .login-form {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+        }
+
+            .login-form h2 {
+                margin-bottom: 30px;
+                text-align: center;
+            }
+
+        .form-control {
+            border-radius: 20px;
+        }
+
+        .login-btn {
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4 login-container">
+                <form class="login-form" method="post">
+                    <h2>ADMİN GİRİŞİ</h2>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="kullanıcı Adı" name="AdminUserName" required style="width:250px;border-radius:30px;">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Şifre" name="AdminPassword" required style="width:250px;border-radius:30px;">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block login-btn" style="width:250px;border-radius:30px;margin-left:8px;">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+</body>
+</html>
+
+

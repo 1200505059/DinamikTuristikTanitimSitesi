@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBTRABZONModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="TBLADMİN">
+    <Key>
+      <PropertyRef Name="AdminID" />
+    </Key>
+    <Property Name="AdminID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AdminUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AdminPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TBLDOGA">
+    <Key>
+      <PropertyRef Name="DogaID" />
+    </Key>
+    <Property Name="DogaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DogaBaslik1" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="DogaBaslik2" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="DogaText" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="DogaImageURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TBLGİRİS">
+    <Key>
+      <PropertyRef Name="GirisID" />
+    </Key>
+    <Property Name="GirisID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GirisBaslik" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="GirisMetin" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TBLILETİSİM">
+    <Key>
+      <PropertyRef Name="IletisimID" />
+    </Key>
+    <Property Name="IletisimID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Adres" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TwitterURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="FacebookURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="LinkedinURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="İnstagramURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TBLKULTUR">
+    <Key>
+      <PropertyRef Name="KulturID" />
+    </Key>
+    <Property Name="KulturID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KulturBaslik" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="KulturImageURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="KulturMetin" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TBLTARİH">
+    <Key>
+      <PropertyRef Name="TarihID" />
+    </Key>
+    <Property Name="TarihID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TarihBaslık" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="TarihImageURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="TarihText" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="DBTRABZONEntities4" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TBLADMİN" EntityType="Self.TBLADMİN" />
+    <EntitySet Name="TBLDOGA" EntityType="Self.TBLDOGA" />
+    <EntitySet Name="TBLGİRİS" EntityType="Self.TBLGİRİS" />
+    <EntitySet Name="TBLILETİSİM" EntityType="Self.TBLILETİSİM" />
+    <EntitySet Name="TBLKULTUR" EntityType="Self.TBLKULTUR" />
+    <EntitySet Name="TBLTARİH" EntityType="Self.TBLTARİH" />
+  </EntityContainer>
+</Schema>

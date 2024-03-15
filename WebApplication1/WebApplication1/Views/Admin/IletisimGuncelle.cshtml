@@ -1,0 +1,45 @@
+﻿@model WebApplication1.Models.Entity.TBLILETİSİM
+@{
+    ViewBag.Title = "IletisimGuncelle";
+    Layout = "~/Views/Shared/_ADMİNLAYOUT.cshtml";
+}
+
+<form class="card-form" method="post" style="max-width: 1200px; margin: 0 auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px; ">
+    <div class="form-group" style="margin-bottom: 20px;">
+        <label for="CardID" style="font-weight: bold;">ID</label>
+        <input type="text" class="form-control" id="HakkimdaID" name="IletisimID" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;" value="@Model.IletisimID">
+    </div>
+    <div class="form-group" style="margin-bottom: 20px;">
+        <label for="CardBaslik" style="font-weight: bold;">TELEFON</label>
+        <input type="text" class="form-control" id="CardBaslik" name="Telefon" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;" value="@Model.Telefon">
+    </div>
+    <div class="form-group" style="margin-bottom: 20px;">
+        <label for="CardBaslik" style="font-weight: bold;">E-MAİL</label>
+        <input type="text" class="form-control" id="CardBaslik" name="Email" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;" value="@Model.Email">
+    </div>
+    <div class="form-group" style="margin-bottom: 20px;">
+        <label for="CardBaslik" style="font-weight: bold;">ADRES</label>
+        <input type="text" class="form-control" id="CardBaslik" name="Adres" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;" value="@Model.Adres">
+    </div>
+    <div class="form-group" style="margin-bottom: 20px;">
+        <label for="CardBaslik" style="font-weight: bold;">TWİTTER</label>
+        <input type="text" class="form-control" id="CardBaslik" name="TwitterURL" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;" value="@Model.TwitterURL">
+    </div>
+    <div class="form-group" style="margin-bottom: 20px;">
+        <label for="CardBaslik" style="font-weight: bold;">FACEBOOK</label>
+        <input type="text" class="form-control" id="CardBaslik" name="FacebookURL" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;" value="@Model.FacebookURL">
+    </div>
+    <div class="form-group" style="margin-bottom: 20px;">
+        <label for="CardBaslik" style="font-weight: bold;">LİNKEDİN</label>
+        <input type="text" class="form-control" id="CardBaslik" name="LinkedinURL" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;" value="@Model.LinkedinURL">
+    </div>
+    <div class="form-group" style="margin-bottom: 20px;">
+        <label for="CardBaslik" style="font-weight: bold;">INSTAGRAM</label>
+        <input type="text" class="form-control" id="CardBaslik" name="İnstagramURL" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;" value="@Model.İnstagramURL">
+    </div>
+    <div class="form-group" style="margin-top: 15px;">
+        <button type="submit" class="btn btn-warning" style="padding: 10px 20px; border: none; border-radius: 5px; background-color: #ffc107; color: #fff; cursor: pointer;"> GÜNCELLE</button>
+    </div>
+</form>
+
+

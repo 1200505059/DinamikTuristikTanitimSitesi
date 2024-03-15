@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{283237CE-C38F-4483-8F95-21D0624E1E1F}|WebApplication1\\WebApplication1.csproj|c:\\users\\pc\\source\\repos\\webapplication1\\webapplication1\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{283237CE-C38F-4483-8F95-21D0624E1E1F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{283237CE-C38F-4483-8F95-21D0624E1E1F}|WebApplication1\\WebApplication1.csproj|C:\\Users\\pc\\source\\repos\\WebApplication1\\webapplication1\\views\\shared\\_adm\u0130nlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{283237CE-C38F-4483-8F95-21D0624E1E1F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_adm\u0130nlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{283237CE-C38F-4483-8F95-21D0624E1E1F}|WebApplication1\\WebApplication1.csproj|C:\\Users\\pc\\source\\repos\\WebApplication1\\webapplication1\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{283237CE-C38F-4483-8F95-21D0624E1E1F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{283237CE-C38F-4483-8F95-21D0624E1E1F}|WebApplication1\\WebApplication1.csproj|C:\\Users\\pc\\source\\repos\\WebApplication1\\webapplication1\\views\\admin\\girisekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{283237CE-C38F-4483-8F95-21D0624E1E1F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\admin\\girisekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{283237CE-C38F-4483-8F95-21D0624E1E1F}|WebApplication1\\WebApplication1.csproj|C:\\Users\\pc\\source\\repos\\WebApplication1\\webapplication1\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{283237CE-C38F-4483-8F95-21D0624E1E1F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{283237CE-C38F-4483-8F95-21D0624E1E1F}|WebApplication1\\WebApplication1.csproj|C:\\Users\\pc\\source\\repos\\WebApplication1\\webapplication1\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{283237CE-C38F-4483-8F95-21D0624E1E1F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_MainLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Shared\\_MainLayout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_MainLayout.cshtml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Shared\\_MainLayout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_MainLayout.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T06:06:46.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ADM\u0130NLAYOUT.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Shared\\_ADM\u0130NLAYOUT.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_ADM\u0130NLAYOUT.cshtml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Shared\\_ADM\u0130NLAYOUT.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_ADM\u0130NLAYOUT.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T05:59:45.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T05:55:03.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GirisEkle.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Admin\\GirisEkle.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Admin\\GirisEkle.cshtml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Admin\\GirisEkle.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Admin\\GirisEkle.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T05:51:56.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAD8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T05:50:59.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAIwB0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T05:49:52.08Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

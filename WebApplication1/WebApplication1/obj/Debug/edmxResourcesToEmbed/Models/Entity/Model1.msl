@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBTRABZONModelStoreContainer" CdmEntityContainer="DBTRABZONEntities4">
+    <EntitySetMapping Name="TBLADMİN">
+      <EntityTypeMapping TypeName="DBTRABZONModel.TBLADMİN">
+        <MappingFragment StoreEntitySet="TBLADMİN">
+          <ScalarProperty Name="AdminID" ColumnName="AdminID" />
+          <ScalarProperty Name="AdminUserName" ColumnName="AdminUserName" />
+          <ScalarProperty Name="AdminPassword" ColumnName="AdminPassword" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLDOGA">
+      <EntityTypeMapping TypeName="DBTRABZONModel.TBLDOGA">
+        <MappingFragment StoreEntitySet="TBLDOGA">
+          <ScalarProperty Name="DogaID" ColumnName="DogaID" />
+          <ScalarProperty Name="DogaBaslik1" ColumnName="DogaBaslik1" />
+          <ScalarProperty Name="DogaBaslik2" ColumnName="DogaBaslik2" />
+          <ScalarProperty Name="DogaText" ColumnName="DogaText" />
+          <ScalarProperty Name="DogaImageURL" ColumnName="DogaImageURL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLGİRİS">
+      <EntityTypeMapping TypeName="DBTRABZONModel.TBLGİRİS">
+        <MappingFragment StoreEntitySet="TBLGİRİS">
+          <ScalarProperty Name="GirisID" ColumnName="GirisID" />
+          <ScalarProperty Name="GirisBaslik" ColumnName="GirisBaslik" />
+          <ScalarProperty Name="GirisMetin" ColumnName="GirisMetin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLILETİSİM">
+      <EntityTypeMapping TypeName="DBTRABZONModel.TBLILETİSİM">
+        <MappingFragment StoreEntitySet="TBLILETİSİM">
+          <ScalarProperty Name="IletisimID" ColumnName="IletisimID" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="TwitterURL" ColumnName="TwitterURL" />
+          <ScalarProperty Name="FacebookURL" ColumnName="FacebookURL" />
+          <ScalarProperty Name="LinkedinURL" ColumnName="LinkedinURL" />
+          <ScalarProperty Name="İnstagramURL" ColumnName="İnstagramURL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLKULTUR">
+      <EntityTypeMapping TypeName="DBTRABZONModel.TBLKULTUR">
+        <MappingFragment StoreEntitySet="TBLKULTUR">
+          <ScalarProperty Name="KulturID" ColumnName="KulturID" />
+          <ScalarProperty Name="KulturBaslik" ColumnName="KulturBaslik" />
+          <ScalarProperty Name="KulturImageURL" ColumnName="KulturImageURL" />
+          <ScalarProperty Name="KulturMetin" ColumnName="KulturMetin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLTARİH">
+      <EntityTypeMapping TypeName="DBTRABZONModel.TBLTARİH">
+        <MappingFragment StoreEntitySet="TBLTARİH">
+          <ScalarProperty Name="TarihID" ColumnName="TarihID" />
+          <ScalarProperty Name="TarihBaslık" ColumnName="TarihBaslık" />
+          <ScalarProperty Name="TarihImageURL" ColumnName="TarihImageURL" />
+          <ScalarProperty Name="TarihText" ColumnName="TarihText" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

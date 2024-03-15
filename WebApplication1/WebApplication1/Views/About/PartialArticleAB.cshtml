@@ -1,0 +1,32 @@
+﻿@model List<WebApplication1.Models.Entity.TBLKULTUR>
+
+<div class="article">
+    <div class="wrap">
+      <br />
+      <br />
+      <br />
+        <div class="custom">
+            <div class="about-lt">
+                <h3>TARİHİ GÜZELLİKLER</h3>
+                <div class="team-list">
+                    <ul>
+                        @foreach (var item in Model)
+                        {
+                            <li style="width:1000px;">
+                                <div id="asd" style="max-width:200px;max-height:200px"> <img src="~/AAA/web/images/@item.KulturImageURL" alt="" /></div>
+                                <h4>@item.KulturBaslik</h4>
+                                <span>@item.KulturMetin</span>
+                                <div class="divider"></div>
+                            </li>
+                        }
+
+
+
+                    </ul>
+                </div>
+            </div>
+           
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
